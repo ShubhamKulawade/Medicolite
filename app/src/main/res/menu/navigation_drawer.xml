@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuProfile"
+            android:icon="@drawable/ic_baseline_person_24dp"
+            android:title="Profile" />
+
+
+        <item
+            android:id="@+id/menuDetect"
+            android:icon="@drawable/ic_baseline_camera_24"
+            android:title="Disease Detection" />
+
+
+
+        <item
+            android:id="@+id/menuAppointment"
+            android:icon="@drawable/ic_baseline_event_24"
+            android:title="My Appointments" />
+        <item
+            android:id="@+id/menuHistory"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="History" />
+
+
+        <item
+            android:id="@+id/menuSignOut"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Sign out" />
+    </group>
+
+</menu>

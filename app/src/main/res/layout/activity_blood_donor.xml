@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bloodDonation.BloodDonor">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto"
+        android:text="Donate once at intervals of"
+        android:textColor="@color/textColor4"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto"
+        android:text="Address will help staff to navigate easily."
+        android:textColor="@color/textColor4"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_blood_drop"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/roboto_bold"
+        android:includeFontPadding="true"
+        android:text="How often would you like to donate?"
+        android:textColor="@color/textColor2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/Blood"
+        app:layout_constraintTop_toBottomOf="@+id/donationRate" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_blood_drop"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/roboto_bold"
+        android:includeFontPadding="true"
+        android:text="How often would you like to donate?"
+        android:textColor="@color/textColor2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/Blood"
+        app:layout_constraintTop_toBottomOf="@+id/Blood" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Become a blood Donor"
+        android:textColor="@color/textColor1"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Fill below details accurately to help you better"
+        android:textColor="@color/textColor3"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <!--<com.google.android.material.button.MaterialButtonToggleGroup
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+       app:checkedChip="@id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:selectionRequired="true"
+        app:singleSelection="true">
+
+
+
+
+        <Button
+            android:id="@+id/button1"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FBFBFB"
+            android:text="A+"
+            android:textColor="#E53935"
+            app:strokeColor="#E53935" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A-" />
+
+        <Button
+            android:id="@+id/button3"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <Button
+            android:id="@+id/button4"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B-" />
+
+        <Button
+            android:id="@+id/button5"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O+" />
+
+        <Button
+            android:id="@+id/button6"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O-" />
+
+        <Button
+            android:id="@+id/button7"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AB+" />
+
+        <Button
+            android:id="@+id/button8"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AB-" />
+
+
+
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+-->
+    <!--<com.nex3z.togglebuttongroup.SingleSelectToggleGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29"
+            app:tbgChildSpacing="auto"
+            app:tbgChildSpacingForLastRow="align"
+            app:tbgFlow="true"
+            app:tbgRowSpacing="8dp">
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="A+"
+                app:tbgMarkerColor="#CF0606" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="A-" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="B+" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="B-" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="O+" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="O-" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="AB+" />
+
+            <com.nex3z.togglebuttongroup.button.CircularToggle
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="AB-" />
+
+
+        </com.nex3z.togglebuttongroup.SingleSelectToggleGroup>-->
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_blood_drop"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/roboto_bold"
+        android:includeFontPadding="true"
+        android:text="Blood Group"
+        android:textColor="@color/textColor2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+        android:id="@+id/Blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:flexWrap="wrap"
+        app:justifyContent="space_between"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:toggle_selectAnimation="horizontal_slide"
+        app:toggle_selectableAmount="1"> <!-- this attribute is from the underlying FlexboxLayout -->
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="A+"
+            app:toggle_textSize="18sp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="A-"
+            app:toggle_textSize="18sp"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="B+"
+            app:toggle_textSize="18sp"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="B-"
+            app:toggle_textSize="18sp"
+            tools:layout_editor_absoluteX="298dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="O+"
+            app:toggle_textSize="18sp"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="O-"
+            app:toggle_textSize="18sp"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="AB+"
+            app:toggle_textSize="18sp"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="AB-"
+            app:toggle_textSize="18sp"
+            tools:layout_editor_absoluteX="296dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+    </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+
+    <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+        android:id="@+id/donationRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:flexWrap="wrap"
+        app:justifyContent="space_evenly"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        app:toggle_selectAnimation="horizontal_slide"
+        app:toggle_selectableAmount="1">
+
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="3 Months"
+            app:toggle_textSize="16sp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="4 Months"
+            app:toggle_textSize="16sp"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="6 Months"
+            app:toggle_textSize="16sp"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:toggle_backgroundColor="@color/white"
+            app:toggle_borderColor="@color/colorGray"
+            app:toggle_borderWidth="2dp"
+            app:toggle_btnCornerRadius="10dp"
+            app:toggle_padding="10dp"
+            app:toggle_selectedBackgroundColor="@color/white"
+            app:toggle_selectedBorderColor="@color/colorRed"
+            app:toggle_selectedBorderWidth="2dp"
+            app:toggle_selectedTextColor="@color/colorRed"
+            app:toggle_text="12 Months"
+            app:toggle_textSize="16sp"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+
+    </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext_round"
+        android:ems="10"
+        android:hint="Enter your current Address"
+        android:inputType="textPostalAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <Button
+        android:id="@+id/buttonRegisterAsdonor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/colorRed"
+        android:insetTop="2dp"
+        android:insetBottom="2dp"
+        android:text="Register"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

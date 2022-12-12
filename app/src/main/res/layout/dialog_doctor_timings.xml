@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="40dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:labelFor="@id/editTextName"
+            android:text="@string/working_days_label"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chipGroup"
+            app:layout_constraintStart_toStartOf="@+id/chipGroup" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:singleSelection="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:selectionRequired="true"
+            tools:ignore="HardcodedText">
+
+           <!--<com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:alignContent="stretch"
+                app:alignItems="stretch"
+                app:flexWrap="wrap"
+                app:justifyContent="space_around"
+                tools:ignore="HardcodedText">-->
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipDay1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:fontFamily="@font/roboto"
+                    android:text="Monday"
+                    app:checkedIconEnabled="true"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    style="@style/CustomChipChoice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipDay2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:fontFamily="@font/roboto"
+                    android:text="Tuesday"
+                    app:checkedIconEnabled="true"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    style="@style/CustomChipChoice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipDay3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:fontFamily="@font/roboto"
+                    android:text="Wednesday"
+                    app:checkedIconEnabled="true"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    style="@style/CustomChipChoice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipDay4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:fontFamily="@font/roboto"
+                    android:text="Thursday"
+                    app:checkedIconEnabled="true"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    style="@style/CustomChipChoice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipDay5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:fontFamily="@font/roboto"
+                    android:text="Friday"
+                    app:checkedIconEnabled="true"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    style="@style/CustomChipChoice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipDay6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:text="Saturday"
+                    app:checkedIconEnabled="true"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    style="@style/CustomChipChoice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipDay7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:text="Sunday"
+                    app:checkedIconEnabled="true"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    style="@style/CustomChipChoice"/>
+           <!-- </com.google.android.flexbox.FlexboxLayout>-->
+        </com.google.android.material.chip.ChipGroup>
+
+        <Button
+            android:id="@+id/buttonAddNewTime"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/add_new_time_button"
+            android:textColor="@color/mainColorDark"
+            app:icon="@drawable/ic_baseline_more_time_24"
+            app:iconTint="@color/mainColorDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chipGroup"
+            app:strokeColor="@color/mainColorDark" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chpGrpTime"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:singleSelection="false"
+            app:selectionRequired="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonAddNewTime">
+
+
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <Button
+            android:id="@+id/buttonSaveTime"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/mainColor"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/save_time_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chpGrpTime" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

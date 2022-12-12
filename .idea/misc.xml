@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/calculate_btn.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/female.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/female_white.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/ic__dermatologist.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/ic__gynecologist.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/ic__hospitalist.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/ic__nephrologist.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/ic__neurosurgeon.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/ic_baseline_person_24dp.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/drawable/rectangle.xml" value="0.26614583333333336" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_appointment_screen.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_blood_donor.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_bmi_test_page.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_bmiactivity.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_doctor_main_screen.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_doctor_profile.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_email_verification.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_heart_rates.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_history.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_incoming_invitation.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_mi_model.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_ml_test.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_my_appointments.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_outgoing_invitation.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_prescription_history.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_result.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_signin.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_user_main_screen.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/cancel_dialog.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/card_design_blood_donor_banner.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/card_doctor_category.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/content_doctor_main.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/content_user_main.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/content_user_main_updated.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/dialog_add_prescription.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/dialog_date.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/dialog_doctor_timings.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/dialog_view_prescription.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/list_appointment.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/list_doctor.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/list_history_disease_ml.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/list_prescription.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/navigation_header.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/single_chip_layout.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/tfe_ic_activity_camera.xml" value="0.234375" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/tfe_ic_camera_connection_fragment.xml" value="0.25" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/tfe_ic_layout_bottom_sheet.xml" value="0.234375" />
+        <entry key="..\:/MedicoLite/MedicoLite/app/src/main/res/layout/toolbar.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

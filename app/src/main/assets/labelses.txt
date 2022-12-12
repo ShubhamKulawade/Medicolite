@@ -1,0 +1,4 @@
+0 x-ray fine
+1 good
+2 No
+3 Pituitary Tumor

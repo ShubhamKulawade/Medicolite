@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.doctorAppointment">
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_2"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Artze"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".bmi.ResultActivity"></activity>
+        <activity android:name=".bmi.BMI_Test_page" />
+        <activity android:name=".Mi_model" />
+        <activity
+            android:name=".bloodDonation.BloodDonor"
+            android:exported="true" />
+        <activity android:name=".mainScreen.PrescriptionHistory" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".MlTest.History"
+            android:exported="true" />
+        <activity android:name=".MlTest.MlTest" />
+        <activity android:name=".Authentication.EmailVerification" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainScreen.MyAppointments"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mainScreen.DoctorMainScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Invitations.OutgoingInvitation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Invitations.IncomingInvitation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mainScreen.AppointmentScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mainScreen.UserMainScreen"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Authentication.ForgotPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profile.DoctorProfile"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profile.UserProfile"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Authentication.SignUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Authentication.SignIn"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ML.ClassifierActivity1"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".message.MessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

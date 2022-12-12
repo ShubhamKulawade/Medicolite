@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/menuActive"
+        android:title="Active"/>
+
+    <item android:id="@+id/menuCancelled"
+        android:title="Cancelled"/>
+
+    <item android:id="@+id/menuCompleted"
+        android:title="Completed"/>
+
+    <item android:id="@+id/menuViewAll"
+        android:title="View All"/>
+
+</menu>

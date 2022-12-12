@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.DoctorProfile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rectangle_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_imageDoc"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="68dp"
+            android:src="@drawable/user_shape"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNameDoc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:autofillHints="name"
+            android:backgroundTint="@color/mainColor"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_imageDoc" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:labelFor="@id/editTextEmailDoc"
+            android:text="@string/email_label"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextEmailDoc"
+            app:layout_constraintStart_toStartOf="@+id/editTextEmailDoc" />
+
+        <EditText
+            android:id="@+id/editTextEmailDoc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:autofillHints="email"
+            android:backgroundTint="@color/mainColor"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNameDoc" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:labelFor="@id/editTextNameDoc"
+            android:text="@string/name_label"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextNameDoc"
+            app:layout_constraintStart_toStartOf="@+id/editTextNameDoc" />
+
+        <EditText
+            android:id="@+id/editTextDobDoc"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/mainColor"
+            android:ems="10"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            app:layout_constraintStart_toStartOf="@+id/editTextEmailDoc"
+            app:layout_constraintTop_toBottomOf="@+id/editTextEmailDoc" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:labelFor="@id/editTextDobDoc"
+            android:text="@string/dob_label"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextDobDoc"
+            app:layout_constraintStart_toStartOf="@+id/editTextDobDoc" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:labelFor="@id/spinnerGenderDoc"
+            android:text="@string/gender_label"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/spinnerGenderDoc"
+            app:layout_constraintStart_toStartOf="@+id/spinnerGenderDoc" />
+
+        <EditText
+            android:id="@+id/editTextPhoneDoc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:autofillHints="phone"
+            android:backgroundTint="@color/mainColor"
+            android:ems="10"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chipGrpTiming" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:labelFor="@id/spinnerSpecialityDoc"
+            android:text="@string/speciality_label"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/spinnerSpecialityDoc"
+            app:layout_constraintLeft_toLeftOf="@id/spinnerSpecialityDoc" />
+
+        <!--<EditText
+            android:id="@+id/editTextSpeciality"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:autofillHints="phone"
+            android:backgroundTint="@color/mainColor"
+            android:ems="10"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDobDoc" />-->
+        <Spinner
+            android:id="@+id/spinnerSpecialityDoc"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/mainColor"
+            android:entries="@array/Specialities"
+            android:layout_marginTop="40dp"
+            android:spinnerMode="dropdown"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDobDoc" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:labelFor="@id/spinnerSpecialityDoc"
+            android:text="@string/timing_label"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chipGrpTiming"
+            app:layout_constraintStart_toStartOf="@+id/chipGrpTiming" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:labelFor="@id/editTextPhoneDoc"
+            android:text="@string/phone_number_label"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextPhoneDoc"
+            app:layout_constraintStart_toStartOf="@+id/editTextPhoneDoc" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:labelFor="@id/editTextLocationDoc"
+            android:text="@string/location_label"
+            android:textColor="#000000"
+            android:textSize="16sp"
+
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextLocationDoc"
+            app:layout_constraintStart_toStartOf="@+id/editTextLocationDoc" />
+
+        <EditText
+            android:id="@+id/editTextLocationDoc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:autofillHints="postalCode"
+            android:backgroundTint="@color/mainColor"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPhoneDoc" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/my_profile_label"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinnerGenderDoc"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/mainColor"
+            android:entries="@array/Genders"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextDobDoc"
+            app:layout_constraintEnd_toEndOf="@+id/editTextEmailDoc"
+            app:layout_constraintTop_toTopOf="@+id/editTextDobDoc" />
+
+        <Button
+            android:id="@+id/buttonProfileSaveDoc"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/mainColor"
+            android:elevation="8dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/save_button_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextLocationDoc" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGrpTiming"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="@+id/spinnerSpecialityDoc"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerSpecialityDoc">
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <Button
+            android:id="@+id/buttonEditTiming"
+            style="@style/IconOnlyButton"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:includeFontPadding="false"
+            android:inputType="none"
+            app:icon="@drawable/ic_baseline_edit_24"
+            app:iconTint="#26A69A"
+            app:layout_constraintBottom_toBottomOf="@+id/chipGrpTiming"
+            app:layout_constraintStart_toEndOf="@+id/spinnerSpecialityDoc"
+            app:layout_constraintTop_toTopOf="@+id/chipGrpTiming" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

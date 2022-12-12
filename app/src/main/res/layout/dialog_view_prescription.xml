@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp"
+    app:cardPreventCornerOverlap="true"
+    app:contentPadding="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_baseline_article_24"
+            android:drawableTint="#323131"
+            android:fontFamily="@font/roboto"
+            android:paddingBottom="10dp"
+            android:text="Prescription"
+            android:textColor="@color/textColor1"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPrescriptionDoctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_stethoscope"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/roboto"
+            android:padding="5dp"
+            android:text="Dr. Geralt Rivia"
+            android:textColor="@color/textColor2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPrescriptionDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_access_time_24"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:text="11:00 AM , 11 May 2021"
+            android:textColor="@color/textColor3" />
+
+        <TextView
+            android:id="@+id/textViewPrescriptionData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/textColor2" />
+
+        <Button
+            android:id="@+id/buttonPrescriptionClose"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorRed"
+            android:text="Close" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    app:cardBackgroundColor="#eeeeee"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textViewAppointmentCancelReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@drawable/ic_baseline_article_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="TextView"
+            android:textColor="@color/darkGray"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textViewAppointmentStatus"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAppointmentStatus" />
+
+        <TextView
+            android:id="@+id/textViewListUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_baseline_person_24dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/roboto"
+            android:maxLines="2"
+            android:text="User_name"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewListDoctorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_stethoscope"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="TextView"
+            android:textColor="@color/darkGray"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textViewListUserName"
+            app:layout_constraintTop_toBottomOf="@+id/textViewListUserName" />
+
+
+        <TextView
+            android:id="@+id/textViewAppointmentDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@drawable/ic_baseline_access_time_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="TextView"
+            android:textColor="@color/darkGray"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textViewListDoctorName"
+            app:layout_constraintTop_toBottomOf="@+id/textViewListDoctorName" />
+
+        <TextView
+            android:id="@+id/textViewAppointmentStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@drawable/ic_baseline_assignment_ind_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="TextView"
+            android:textColor="@color/darkGray"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textViewAppointmentDateTime"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAppointmentDateTime" />
+
+
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textViewAppointmentCancelReason">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/buttonCancelAppointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@color/colorRed"
+                android:contentDescription="Cancel Appointment"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:src="@drawable/ic_baseline_close_24" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/buttonCompleteAppointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:contentDescription="Cancel Appointment"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:src="@drawable/ic_baseline_check_24" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
